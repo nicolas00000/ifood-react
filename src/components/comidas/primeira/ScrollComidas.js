@@ -5,6 +5,7 @@ import './styles.css';
 export default function ScrollComidas(){
     const [boxNumber , setBoxNumber] = useState(null)
     const [clicado , setClicado] = useState(false)
+    const [pratos, setPratos] = useState([])
     const handleCardClick = (id) => {
         setBoxNumber(id)
     };
